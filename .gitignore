@@ -1,0 +1,156 @@
+# ============================================
+# Unreal Engine .gitignore
+# ============================================
+
+# ------------------------------------------------
+# Build & Intermediate directories
+# ------------------------------------------------
+Binaries/
+Build/
+Intermediate/
+Saved/
+
+# ------------------------------------------------
+# IDE & Editor files
+# ------------------------------------------------
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Rider
+.idea/
+*.iml
+
+# Xcode
+*.xcodeproj/
+xcuserdata/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Qt Creator
+*.pro.user
+*.qmlc
+*.jsc
+
+# ------------------------------------------------
+# Compiled binaries & libraries
+# ------------------------------------------------
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.a
+*.lib
+
+# ------------------------------------------------
+# Build-generated files
+# ------------------------------------------------
+*.obj
+*.o
+*.log
+*.pch
+*.pdb
+*.ipch
+*.aps
+*.idb
+*.rep
+
+# ------------------------------------------------
+# Crash reports & memory dumps
+# ------------------------------------------------
+*.dmp
+*.dump
+CrashReportClient/
+MemoryResults/
+
+# ------------------------------------------------
+# Cache & temporary files
+# ------------------------------------------------
+DerivedDataCache/
+Cached/
+*.cache
+*.tmp
+*.temp
+~$*
+
+# ------------------------------------------------
+# Local configuration (machine-specific)
+# ------------------------------------------------
+# Ignore local overrides but keep default configs
+Config/*.ini
+!Config/Default*.ini
+
+# ------------------------------------------------
+# Plugin & Marketplace files
+# ------------------------------------------------
+Marketplace/
+Plugins/Marketplace/
+
+# ------------------------------------------------
+# Documentation & auto-generated docs
+# ------------------------------------------------
+Documentation/
+API/
+
+# ------------------------------------------------
+# Windows specific
+# ------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ------------------------------------------------
+# macOS specific
+# ------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ------------------------------------------------
+# Linux specific
+# ------------------------------------------------
+*~
+.directory
+.Trash-*
+
+# ------------------------------------------------
+# Backup files
+# ------------------------------------------------
+*.bak
+*.backup
+*.old
+*.orig
+*Copy.*
+
+# ------------------------------------------------
+# Test results
+# ------------------------------------------------
+TestResults/
+AutomationReports/
+
+# ------------------------------------------------
+# Profiling data
+# ------------------------------------------------
+*.uprof
+*.trace
+
+# ==================================================
+# Note: .gitignore and .gitattributes should be committed
+# ==================================================
