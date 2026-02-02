@@ -160,3 +160,6 @@ Content/LocalAsset/*
 
 # 但保留占位文件，让文件夹结构能被同步
 !Content/LocalAsset/.gitkeep
+
+# 忽略 Developers 文件夹
+Content/Developers/
