@@ -155,11 +155,11 @@ AutomationReports/
 # Note: .gitignore and .gitattributes should be committed
 # ==================================================
 
-# 忽略 LocalAsset 里的所有内容
-Content/LocalAsset/*
+# 忽略 Content 目录下的所有内容
+Content/*
 
-# 但保留占位文件，让文件夹结构能被同步
-!Content/LocalAsset/.gitkeep
+# 但只跟踪 ProjectContent 文件夹的内容
+!Content/ProjectContent/
 
 # 忽略 Developers 文件夹
 Content/Developers/
