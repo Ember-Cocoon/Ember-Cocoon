@@ -161,9 +161,11 @@ Content/*
 # 但只跟踪 ProjectContent 文件夹的内容
 !Content/ProjectContent/
 
-# 跟踪外部化 Actor 和 Object 数据
-!Content/__ExternalActors__/
-!Content/__ExternalObjects__/
+# 跟踪外部化 Actor 和 Object 数据（仅限 ProjectContent）
+Content/__ExternalActors__
+!Content/__ExternalActors__/ProjectContent/
+Content/__ExternalObjects__
+!Content/__ExternalObjects__/ProjectContent/
 
 # 忽略 Developers 文件夹
 Content/Developers/
