@@ -10,7 +10,6 @@
 
 因为一般导入资源包到 UE 项目中时，会默认导入到 Content 文件夹中，在进行开发制作时，请选择所需的相关资源移入 ProjectContent 文件夹中进行同步即可
 
-> [!info]
 > Content 文件夹下，除 ProjectContent 文件夹以外的其余所有内容，均不会被 Git 所同步，已在 `.gitignore` 中设置
 
 # 比例尺说明
