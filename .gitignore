@@ -93,6 +93,8 @@ Cached/
 # Ignore local overrides but keep default configs
 Config/*.ini
 !Config/Default*.ini
+# Except DefaultEditor.ini (machine-specific)
+Config/DefaultEditor.ini
 
 # ------------------------------------------------
 # Plugin & Marketplace files
